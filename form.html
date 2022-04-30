@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <style>
+            .cong{
+                width:100%;
+            }
+            a.button {
+    appearance: button;
+text-align: center;
+    text-decoration: none;
+    
+    background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin-top:20px;
+  
+  border: none;
+  cursor: pointer;
+  width:30%;
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+        </style>
+        <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     
+     <link rel="stylesheet" href="bootstrap-social-gh-pages/bootstrap-social.css">
+     
+     <link rel="stylesheet" href="mystyle.css">
+     <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+         <title>Ristorante Con Fusion: About Us</title>
+     
+     </head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand mr-auto" href="./project.html"><img src="./imgs/logo.png" height="30" width="41"></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar">
+             <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./project.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item "><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> Our Vision</a></li>
+                <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-list fa-lg"></span>About Us </a></li>
+                <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>FAQs </a></li>
+                <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Help </a></li>
+                <li class="nav-item"><a class="nav-link active" href="./login.html"><span class="fa fa-address-card fa-lg"></span> Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Sign-up </a></li>
+            
+                </ul>    
+            </div>        
+        </div>
+    </nav>
+    <form class="forms">
+        <label for="fname">Age:</label>
+        <input type="text" id="fname" value="25" name="fname"><br>
+        <label for="lname">Has been saving for:</label>
+        <input type="text" id="lname" value="5" name="lname"><br>
+        <label for="fname">Net Saving Balance change:</label>
+        <input type="text" id="fname" value="12000" name="fname"><br>
+        
+        <label for="fname">Current savings balance:</label>
+        <input type="text" id="fname" value="500000" name="fname"><br>
+        
+        
+        <label for="fname">Number of credit bureau queries:</label>
+        <input type="text" id="fname" value="2" name="fname"><br>
+        
+        <label for="fname">Maximum day in arrears:</label>
+        <input type="text" id="fname" value="3" name="fname"><br>
+        
+        <label for="fname">Mobile bill payments:</label>
+        <input type="text" id="fname" value="5000" name="fname"><br>
+        
+        <label for="fname">IMEI number(model):</label>
+        <input type="text" id="fname" value="Huwaei Mate" name="fname"><br>
+        
+        <label for="fname">Government transaction:</label>
+        <input type="text" id="fname" value="200000" name="fname"><br>
+        
+        <label for="fname">Type of business:</label>
+        <input type="text" id="fname" value="Mix" name="fname"><br>
+        
+        <label for="fname">Business experience:</label>
+        <input type="text" id="fname" value="5" name="fname"><br>
+        
+        <label for="fname">Geo location:</label>
+        <input type="text" id="fname" value="30" name="fname"><br>
+        
+        <label for="fname">Asset value:</label>
+        <input type="text" id="fname" value="5000000" name="fname"><br>
+        
+    </form>
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <div class="cong"> <button type="button" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#myModal">Check my CF score</button> </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="card">
+                <div class="text-right cross"> <i class="fa fa-times"></i> </div>
+                <div class="card-body text-center"> <img src="https://img.icons8.com/bubbles/200/000000/trophy.png">
+                    <h4>CONGRATULATIONS!</h4>
+                    <p>Your CF score is 717</p> <button class="btn btn-out btn-square continue">CONTINUE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
